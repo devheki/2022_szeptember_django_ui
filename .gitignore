@@ -1,2 +1,4 @@
 venv
 my_blog/my_blog/__pycache__/
+my_blog/blog/migrations/__pycache__/
+my_blog/blog/__pycache__/
