@@ -7,7 +7,7 @@ MVC - MVT: Model View Template
 """
 
 def home(request):
-    return HttpResponse('<h1>Blog home valami </h1>')
+    return render(request, 'blog/home.html')
 
 def about(request):
-    return HttpResponse('<h1>About page</h1>')
+    return render(request, 'blog/about.html')
