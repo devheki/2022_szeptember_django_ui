@@ -1,34 +1,13 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import PostsModel
 
 # Create your views here.
 """
 MVC - MVT: Model View Template
 """
 
-posts = [
-    {
-        'author': 'Ricsi Kovács',
-        'title': 'Blog post 1',
-        'content': 'first content',
-        'date_posted': '2022 szeptember 14'
-    },
-    {
-        'author': 'Ricsi Kovács',
-        'title': 'Blog post 2',
-        'content': 'second content',
-        'date_posted': '2022 szeptember 15'
-    },
-    {
-        'author': 'Ricsi Kovács',
-        'title': 'Blog post 3',
-        'content': '3rd content',
-        'date_posted': '2022 szeptember 17'
-    },
-]
-
-
 def home(request):
+    posts = PostsModel.objects.all()
     text = {
         'posts': posts
     }
