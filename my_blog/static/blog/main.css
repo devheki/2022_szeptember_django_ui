@@ -1,0 +1,53 @@
+body {
+    background: rgb(224, 219, 221);
+    color: rgb(14, 14, 14);
+    margin-top: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(124, 23, 23);
+}
+
+.bg-steel {
+    background-color: lightblue;
+}
+
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.article-title {
+    color: darkorange;
+}
+
+.article-title:hover {
+    white-space: pre-line;
+    color: chartreuse;
+}
+
+.article-content {
+    white-space: pre-line;
+    color: darkslategray;
+}
+
+.content-section {
+    background: whitesmoke;
+    padding: 10px 20px;
+    border: 1px solid darkslategrey;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: wheat;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.site-header .navbar-nav .nav-link:active {
+    font-weight: 500;
+}
