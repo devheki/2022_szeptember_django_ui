@@ -6,3 +6,4 @@ db.sqlite3
 my_blog/user_registration/__pycache__/
 my_blog/user_registration/migrations/__pycache__/
 my_blog/db.sqlite3
+my_blog/db.sqlite3
