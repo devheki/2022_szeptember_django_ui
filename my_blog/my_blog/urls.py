@@ -19,10 +19,11 @@ from user_registration.views import register as register_view
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
+    path('', include('blog.urls')),
     path('admin/', admin.site.urls),
     path('register/', register_view, name="register"),
     path('login/', auth_views.LoginView.as_view(template_name='user/login.html'), name="login"),
-    path('', include('blog.urls')),
+    path('logout/', auth_views.LogoutView.as_view(template_name='user/logout.html'), name="logout"),
 ]
 
 
