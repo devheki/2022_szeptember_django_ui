@@ -1,0 +1,92 @@
+[
+    {
+      "model": "blog.PostsModel",
+      "pk": 14,
+      "fields": {
+        "title": "John Lennon s life",
+        "content": "John Lennon s life",
+        "author": 1
+      }
+    },
+    {
+        "model": "blog.PostsModel",
+        "pk": 15,
+        "fields": {
+            "title": "Mariapócsi szűzanya könycseppjei",
+            "content": "Mariapócsi szűzanya könycseppjei",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 16,
+        "fields": {
+            "title": "Red Bull átlépte a költségsapkát",
+            "content": "Red Bull átlépte a költségsapkát",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 17,
+        "fields": {
+            "title": "John Lennon s life",
+            "content": "John Lennon s life",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 18,
+        "fields": {
+            "title": "John Lennon s life",
+            "content": "John Lennon s life",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 19,
+        "fields": {
+            "title": "John Lennon s life",
+            "content": "John Lennon s life",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 20,
+        "fields": {
+            "title": "Mittudomén",
+            "content": "Mittudomén",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 21,
+        "fields": {
+            "title": "John Lennon s life",
+            "content": "John Lennon s life",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 22,
+        "fields": {
+            "title": "Predators",
+            "content": "Hungarian directors movie",
+            "author": 1
+        }
+      },
+      {
+        "model": "blog.PostsModel",
+        "pk": 23,
+        "fields": {
+            "title": "Alien anthology ",
+            "content": "Alien anthology",
+            "author": 1
+        }
+      }   
+  ]
